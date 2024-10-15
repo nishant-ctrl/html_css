@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start;  /* maain axis ke start se i.e.left to right */
+    /* justify-content: flex-end;  /* main axis ke end se */
+    /* justify-content: center;  /* main axis ke center me */
+    /* justify-content: space-around;  /* jo space khali tha wo box ke around aa jayga */
+    /* justify-content: space-evenly;  */   
+    justify-content: space-between;  /* jo space khali tha wo box ke around aa jayga but first and last bos ke aage and piche nhi ayega */
+    align-items:center;
+
+}
+#one{
+    background-color: aqua;
+    flex-grow: 1;
+}
+#two{
+    background-color: pink;
+    flex-grow: 1;
+}
+#three{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+#four{
+    background-color: goldenrod;
+    flex-grow: 1;
+}
+#five{
+    background-color: greenyellow;
+    flex-grow: 1;
+}

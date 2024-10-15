@@ -1,0 +1,47 @@
+/* *{
+    font-family: monospace;
+} */
+
+
+body {
+    font-size: 22px;
+    border: 3px solid blue;
+}
+
+button,input,textarea,select{
+    font: inherit;
+}
+
+main{
+    font-family: monospace;
+}
+
+h1,h2 {
+    color: brown;
+}
+
+
+p {
+    color: purple;
+}
+
+/* To all span  */
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* Specific span*/
+.highlight1 {
+    text-transform: uppercase;
+    background-color: greenyellow;
+}
+
+.gray {
+    color: gray;
+}
+
+/* not recommend - id */
+#second {
+    font-style: italic;
+}

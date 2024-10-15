@@ -1,0 +1,58 @@
+/*
+#one{
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+    font-size: 20px;
+}
+#two{
+    height: 50px;
+    width: 30%;
+    background-color: aquamarine;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 4em;        
+}
+/* width take em times of own font-size */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: goldenrod;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+body{
+    background-image: url(/web/img/tacos_tray_400x267.png);
+    background-size: cover;
+}
+#one{
+    position: static;
+    background-image: url(/web/img/tacos_close_up_400x260.png);
+    background-size: cover;
+}
+#two{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+#three{
+    position: absolute;  /* closest parent tag */
+    top: 10px;
+    right: 20px;
+}
+#four{
+    position: fixed;    /* with browser or document */
+    top: 10px;
+    left: 500px;      
+    /* when we fix it it always fixed with browser.
+    it is used in navigation creation */
+}
+#five{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+/* z index */

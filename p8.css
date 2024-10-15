@@ -1,0 +1,22 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px solid #88D498;
+    border-left: 10px solid #114B5F;
+    border-radius: 50%;
+    background-color: #F3E9D2;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    animation: loader 2s ease-in-out 0s infinite normal;
+
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

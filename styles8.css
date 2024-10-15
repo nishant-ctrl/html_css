@@ -1,0 +1,25 @@
+#one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    animation: color_animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation: position_animate 3s ease-in 2s infinite normal;
+}
+
+@keyframes color_animation{
+    from{background-color: aquamarine;}
+    to{background-color: blue;}
+}
+@keyframes position_animate{
+    from{left: 0px}
+    to{right: 200px;}
+}

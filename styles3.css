@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+button{
+    background-color: blueviolet;
+    display: block;
+}
+#div2{
+    background-color: rgba(255, 0, 0, 0.608);
+}

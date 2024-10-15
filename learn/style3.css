@@ -1,0 +1,12 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+    /* background-image: url(); */
+    color: rgb(11, 11, 11);
+}
+
+p{
+    color: #333;
+}

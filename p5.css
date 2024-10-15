@@ -1,0 +1,8 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-image: url(/web/img/tacos_and_drink_400x267.png);
+    background-size: cover;
+    position: fixed;
+    right: 0;
+}

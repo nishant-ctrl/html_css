@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    /* width: 100px; */
+    display: inline;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    border: 2px solid black;
+
+}

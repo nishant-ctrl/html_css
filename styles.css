@@ -1,0 +1,60 @@
+body{
+    /* font-family: 'Courier New', Courier, monospace; */
+    background-color: papayawhip;
+    font-size: 22px;
+}
+
+h1{
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    text-decoration: gold underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#id1{
+    color: rgb(97, 3, 22);
+    text-decoration: gold dotted underline;
+}
+
+p{
+    color: blue;
+    
+}
+
+button{
+    color: brown;
+    background-color: goldenrod;
+}
+
+.span1{
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: brown;
+}
+
+.one{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two{
+
+    font-family: cursive;
+    text-align: center;
+    line-height: 50px;
+}
+
+#id-two{
+    font-weight: normal;
+}
+#id-three{
+    font-weight: 200;  /* 100 to 900 */
+}
+#id-four{
+    font-weight: 400;
+}
+#id-five{
+    font-weight: 900;
+}
